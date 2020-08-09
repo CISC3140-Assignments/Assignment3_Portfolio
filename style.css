@@ -5,13 +5,15 @@
 body {
     font-family:Arial, Helvetica, sans-serif;
     margin:0;
+    background-color: #2c0ba1;
 }
 
 .header {
     padding:80px;
     text-align:center;
-    background:#1abc9c;
+    background:#582fec;
     color:white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 
 .header h1 {
@@ -59,6 +61,9 @@ body {
     float:center;
     margin: 5px;
     padding:15px;
+    border: 2px solid blue;
+    box-sizing: border-box;
+    box-shadow: 10px 10px grey;
   }
 
 .content:hover {
@@ -108,4 +113,10 @@ img {
     width: 50px;
     height: 50px;
     padding: 10px;
+}
+
+div.column {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
 }
