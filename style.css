@@ -22,7 +22,7 @@ body {
     display: -ms-flexbox; 
     display: flex;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+    flex-wrap: wrap;   
 }
 
 .side {
@@ -37,12 +37,6 @@ body {
     flex: 70%;
     background-color: white;
     padding: 20px;
-}
-
-.footer {
-    padding: 20px;
-    text-align: center;
-    background: #ddd;
 }
 
 @media screen and (max-width: 700px) {
@@ -62,9 +56,18 @@ body {
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
-    width: 150px;
+    width: 250px;
   }
 
 .content:hover {
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
   }
+
+.column {
+    column-gap: 25px;
+}
+
+.img {
+    width: 100%;
+    height: 150%;
+}
