@@ -5,3 +5,5 @@ It contains:
   - Contact details
   - Projects I have worked on
   - What I am reading
+
+Accessible link: https://cisc3140-assignments.github.io/Assignment3_Portfolio/
